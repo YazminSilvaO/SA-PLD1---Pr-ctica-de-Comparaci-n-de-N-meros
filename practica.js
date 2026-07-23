@@ -23,6 +23,10 @@ let ordenMayorMenor = [a, b, c].sort((a, b) => b - a);
 console.log("Los número ordenados de mayor a menor son: " + ordenMayorMenor);
 
 // Comprar si hay numeros iguales
-if (a === b && b === c){
-    console.log("Los números que metiste son iguales.");
+if (a === b){
+    console.log("El primer número: " + a + " y "+ "el segundo número: " + b + " son iguales");
+}else if(a === c){
+    console.log( "El primer número: " + a + " y" + "el tercer número: " + c + " son iguales");
+}else if(b === c){
+    console.log ("el segundo número: " + b + " y" + "el tercer número: " + c + " son iguales")
 }
